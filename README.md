@@ -4,19 +4,18 @@
 LIS 2360:  Web Application Development
 
 ### Assignment Date:  
-(Month Day, Year)
+August 3, 2018
 
 ### Student Name:  
-(First and Last Name)
+Raymond-Daniel Reyes
 
 ### Project Description:
-(In your own words, briefly describe the assignment.)
+For this assignment, the student was required to create a webpage where the user can search up a movie by title and receive information back including the title of the movie, its synopsis, its release date, its popularity rating, the language it was set in, and the poster of the movie.  In order to do so, the student had to use JSON (JavaScript Object Notation) data and Ajax methods in order to allow the webpage (the client) to transmit an HTTP request to TheMovieDB (the server), and receive an HTTP response from TMDB.
 
 ### View Project:
-(Replace this statement with your Github Page URL that was created when you 
- published the project.)
+https://rr15d.github.io/lesson8_ajax/
 
 ### Lessons Learned in the Assignment:
-1. (Briefly describe a lesson/concept learned in this lesson.)
-2. (Briefly describe a lesson/concept learned in this lesson.)
-3. (Briefly describe a lesson/concept learned in this lesson.)
+1. Ajax, which stands for "Asynchronous Javascript and XML", is used to allow client web pages to interact and exchange data with a web server, without having to reload the entire web page.  Ajax relies both on a programming language (JavaScript) and a data interchange format (JSON or XML).
+2. JSON, which stands for "JavaScript Object Notation", is one of the data interchange formats that can be used with Ajax.  JSON is a syntax for storing and exchanging data, it is lightweight, it is a subset of JavaScript, and it is language independent and easy to understand.
+3. Ajax can be used to update data in four steps: creating the XMLHttpRequest object where the script will run, using that object to send a request to the server, receiving the response from the server, and finally, processing the data received and incorporating it into the Ajax application.
